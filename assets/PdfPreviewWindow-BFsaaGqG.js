@@ -1,0 +1,1 @@
+import{K as f,A as l}from"./main-BmmAQwLy.js";function n(){const{setShowPdfPreview:t,setPdfInvoiceData:a,selectedDeal:r,activeDeal:e,openDealCard:s}=f();return l.useEffect(()=>{t?.(!1),a?.(null),!r&&e&&s?.(e)},[]),null}export{n as default};

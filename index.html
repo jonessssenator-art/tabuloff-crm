@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru" data-theme="light" data-motion="full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/tabuloff-crm/tabuloff-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0E0E0E" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Табулофф" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/tabuloff-crm/tabuloff-icon-180.png" />
+    <link rel="manifest" href="/tabuloff-crm/manifest.webmanifest" />
+    <title>Табулофф CRM</title>
+    <script>
+      /* Тема до загрузки React — без вспышки. Кэш "p360_theme" пишет src/ui/theme/useTheme.js (applyTheme). */
+      (function () {
+        var d = document.documentElement, t = 'light', m = 'full', c = 'on', v = null, mc = null;
+        try {
+          var s = JSON.parse(localStorage.getItem('p360_theme') || 'null');
+          if (s) {
+            if (s.preset === 'aurora' || s.preset === 'light') t = s.preset;
+            if (s.motion === 'calm' || s.motion === 'off') m = s.motion;
+            if (s.celebrate === false) c = 'off';
+            v = s.vars; mc = s.metaColor;
+          }
+        } catch (e) { /* приватное окно — тема по умолчанию */ }
+        d.setAttribute('data-theme', t);
+        d.setAttribute('data-motion', m);
+        d.setAttribute('data-celebrate', c);
+        if (v && typeof v === 'object') for (var k in v) if (k.indexOf('--p-') === 0) d.style.setProperty(k, String(v[k]));
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', mc || (t === 'aurora' ? '#050505' : '#0E0E0E'));
+      })();
+    </script>
+    <script type="module" crossorigin src="/tabuloff-crm/assets/main-BmmAQwLy.js"></script>
+    <link rel="stylesheet" crossorigin href="/tabuloff-crm/assets/main-DHBHgYv3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

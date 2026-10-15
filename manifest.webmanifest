@@ -1,0 +1,43 @@
+{
+  "id": "./",
+  "name": "Табулофф CRM",
+  "short_name": "Табулофф",
+  "description": "Табулофф CRM — вывески и наружная реклама: заявки, замеры, дизайн, производство, монтаж, деньги",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#F4F3EF",
+  "theme_color": "#0E0E0E",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "tabuloff-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "tabuloff-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "tabuloff-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "tabuloff-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
