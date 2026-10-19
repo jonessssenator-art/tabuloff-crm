@@ -1,0 +1,1 @@
+import{dl as r,ba as o,H as a}from"./main-CulPTfXO.js";function s({children:t,onEscape:e}){return r(typeof e=="function",e),typeof document>"u"?null:o.createPortal(a.jsx("div",{className:"prd-layer",children:t}),document.body)}export{s as B};

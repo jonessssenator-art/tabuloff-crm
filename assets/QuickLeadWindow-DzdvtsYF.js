@@ -1,1 +1,0 @@
-import{K as t,H as r}from"./main-BmmAQwLy.js";import{N as e}from"./NewDealForm-DREcF0Wm.js";/* empty css                 */import"./dealsHooks-Cmr8CXMb.js";import"./dealsLib-BvlRR5U_.js";import"./dealOps-CkFqxSeV.js";function n(){const{setShowQuickLead:o}=t();return r.jsx(e,{compact:!0,onClose:()=>o?.(!1)})}export{n as default};

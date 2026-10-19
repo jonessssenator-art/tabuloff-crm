@@ -1,1 +1,0 @@
-import{K as s,A as l}from"./main-BmmAQwLy.js";function r(){const{setShowInvoiceModal:a,selectedDeal:o,activeDeal:e,openDealCard:t}=s();return l.useEffect(()=>{a?.(!1),!o&&e&&t?.(e)},[]),null}export{r as default};

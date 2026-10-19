@@ -1,1 +1,0 @@
-import{H as r}from"./main-BmmAQwLy.js";import{G as s}from"./GlassPanel-Bfa8vMHY.js";function l({className:a,...o}){return r.jsx(s,{...o,className:["p-plate",a].filter(Boolean).join(" ")})}export{l as D};
