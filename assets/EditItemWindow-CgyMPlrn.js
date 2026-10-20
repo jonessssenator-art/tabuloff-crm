@@ -1,0 +1,1 @@
+import{j as r}from"./main-Ct7BPMjm.js";import{u as m}from"./wh2-j5K7YjYk.js";import{I as u}from"./ItemDialog-Blm9Zrsc.js";function d(){const o=m(),{crm:e,byId:n}=o,t=e.editingWarehouseItem,s=t?.id&&n.get(t.id)||t||null,i=()=>e.setEditingWarehouseItem?.(null);return s?r.jsx(u,{wh:o,item:s,onClose:i}):null}export{d as default};

@@ -1,1 +1,0 @@
-import{H as n}from"./main-CulPTfXO.js";import{u as c}from"./wh2-HUC_5KNi.js";import{I as l}from"./ItemDialog-C28JOlvZ.js";function d(){const o=c(),{crm:s,cats:t}=o,e=s.selectedWarehouseCategory,r=e&&t.some(m=>m.name===e)?e:null,a=()=>s.setShowAddWarehouseItem?.(!1);return n.jsx(l,{wh:o,category:r,onClose:a})}export{d as default};

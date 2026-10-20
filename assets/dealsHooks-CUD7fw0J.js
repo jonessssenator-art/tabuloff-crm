@@ -1,0 +1,1 @@
+import{a$ as a,r as t,o as r}from"./main-Ct7BPMjm.js";import{T as u}from"./dealsLib-rQ2o19as.js";function p(e,s){return t.useMemo(()=>r({invoices:e||[],transactions:s||[]}),[e,s])}function M(){const{all:e}=a(),s=t.useMemo(()=>u(e),[e]),n=t.useMemo(()=>new Map(s.map(o=>[o.key,o])),[s]);return{settings:e,stages:s,stageMap:n}}export{p as a,M as u};

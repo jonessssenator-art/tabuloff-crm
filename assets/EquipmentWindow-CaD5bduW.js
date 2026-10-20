@@ -1,0 +1,1 @@
+import{j as s}from"./main-Ct7BPMjm.js";import{u as e}from"./wh2-j5K7YjYk.js";import{a as n}from"./EquipmentView-By-VTfrI.js";function u(){const o=e(),t=()=>o.crm.setShowAddEquipmentModal?.(!1);return s.jsx(n,{wh:o,eq:null,onClose:t})}export{u as default};
