@@ -1,0 +1,1 @@
+import{j as r}from"./main-DawlDfAP.js";import{G as s}from"./GlassPanel-_4BiNTAv.js";function l({className:a,...o}){return r.jsx(s,{...o,className:["p-plate",a].filter(Boolean).join(" ")})}export{l as D};

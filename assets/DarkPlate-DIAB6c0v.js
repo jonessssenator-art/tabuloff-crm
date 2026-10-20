@@ -1,1 +1,0 @@
-import{j as r}from"./main-Ct7BPMjm.js";import{G as s}from"./GlassPanel-CkpmYJTN.js";function l({className:a,...o}){return r.jsx(s,{...o,className:["p-plate",a].filter(Boolean).join(" ")})}export{l as D};

@@ -1,0 +1,1 @@
+import{j as n}from"./main-DawlDfAP.js";import{u as c}from"./wh2-fOGUksDM.js";import{I as l}from"./ItemDialog-D95-Fiuk.js";function d(){const o=c(),{crm:s,cats:t}=o,e=s.selectedWarehouseCategory,r=e&&t.some(m=>m.name===e)?e:null,a=()=>s.setShowAddWarehouseItem?.(!1);return n.jsx(l,{wh:o,category:r,onClose:a})}export{d as default};

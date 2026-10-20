@@ -1,0 +1,1 @@
+import{j as r}from"./main-DawlDfAP.js";import{u as m}from"./wh2-fOGUksDM.js";import{I as u}from"./ItemDialog-D95-Fiuk.js";function d(){const o=m(),{crm:e,byId:n}=o,t=e.editingWarehouseItem,s=t?.id&&n.get(t.id)||t||null,i=()=>e.setEditingWarehouseItem?.(null);return s?r.jsx(u,{wh:o,item:s,onClose:i}):null}export{d as default};

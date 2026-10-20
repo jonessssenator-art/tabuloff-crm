@@ -1,0 +1,1 @@
+import{u as r,r as s}from"./main-DawlDfAP.js";function n(){const{setShowInvoiceModal:a,selectedDeal:o,activeDeal:e,openDealCard:t}=r();return s.useEffect(()=>{a?.(!1),!o&&e&&t?.(e)},[]),null}export{n as default};

@@ -1,0 +1,1 @@
+import{cK as r,az as o,j as a}from"./main-DawlDfAP.js";function s({children:t,onEscape:e}){return r(typeof e=="function",e),typeof document>"u"?null:o.createPortal(a.jsx("div",{className:"prd-layer",children:t}),document.body)}export{s as B};

@@ -1,1 +1,0 @@
-import{u as r,j as t}from"./main-Ct7BPMjm.js";import{N as e}from"./NewDealForm-5PAX6j1C.js";/* empty css                 */import"./dealsHooks-CUD7fw0J.js";import"./dealsLib-rQ2o19as.js";import"./dealOps-DT1JGlmB.js";function l(){const{setShowAddDeal:o}=r();return t.jsx(e,{onClose:()=>o?.(!1)})}export{l as default};

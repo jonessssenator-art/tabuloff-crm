@@ -1,0 +1,1 @@
+import{u as f,r as l}from"./main-DawlDfAP.js";function n(){const{setShowPdfPreview:t,setPdfInvoiceData:a,selectedDeal:r,activeDeal:e,openDealCard:s}=f();return l.useEffect(()=>{t?.(!1),a?.(null),!r&&e&&s?.(e)},[]),null}export{n as default};

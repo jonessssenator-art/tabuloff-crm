@@ -1,0 +1,1 @@
+import{u as t,j as r}from"./main-DawlDfAP.js";import{N as e}from"./NewDealForm-CSd7UxYW.js";/* empty css                 */import"./dealsHooks-76H8LsQF.js";import"./dealsLib-DcQCLqQh.js";import"./dealOps-Cn4D_nW9.js";function n(){const{setShowQuickLead:o}=t();return r.jsx(e,{compact:!0,onClose:()=>o?.(!1)})}export{n as default};

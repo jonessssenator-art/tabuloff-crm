@@ -1,0 +1,1 @@
+import{j as s}from"./main-DawlDfAP.js";import{u as e}from"./wh2-fOGUksDM.js";import{a as n}from"./EquipmentView-BsKWDuYD.js";function u(){const o=e(),t=()=>o.crm.setShowAddEquipmentModal?.(!1);return s.jsx(n,{wh:o,eq:null,onClose:t})}export{u as default};
